@@ -1,0 +1,63 @@
+[
+     {         
+         "service_id": "01",
+         "title": "Premium individual photo",
+         "position": "indoor",         
+         "img": "http://winnipegsportsteamphotos.com/assets/images/work-1.jpg",
+         "price": "300",
+         "rating": "4.9",
+         "description": "In this service we provide special premium photo that is inside indoor. Sometimes when before the game players has send their photo to authority. we took these photo very premium and make sure that the photo looks neat and clean."
+         
+     },
+     {         
+         "service_id": "02",
+         "title": "Premium individual photo",
+         "position": "Outdoor",         
+         "img": "http://winnipegsportsteamphotos.com/assets/images/work-2.jpg",
+         "price": "349",
+         "rating": "5.00",
+         "description": "we provide special premium photo that is at outdoor. Sometimes when before the game players has send their photo to authority. we took these photo very premium and make sure that the photo looks neat and clean."
+         
+     },
+     {         
+         "service_id": "03",
+         "title": "Sitting individual",
+         "position": "Dressing room",         
+         "img": "http://winnipegsportsteamphotos.com/assets/images/work-7.jpg",
+         "price": "200",
+         "rating": "5.00",
+         "description": "This photo will taken in your dressing room. Sometimes people want remember their dressing room and we took photo make that their memory will best from us. we took these photo very premium and make sure that the photo looks neat and clean."
+         
+     },
+     {         
+         "service_id": "04",
+         "title": "Team photo",
+         "position": "Indoor",         
+         "img": "http://winnipegsportsteamphotos.com/assets/images/work-17.jpg",
+         "price": "400",
+         "rating": "4.5",
+         "description": "When you play a team sports you would defenitely want a team photo. Here we will provide you the best photo of your team and you will collect this as your memory. we took these photo very premium and make sure that the photo looks neat and clean."
+         
+     },
+     {         
+         "service_id": "05",
+         "title": "Team photo",
+         "position": "Outdoor",         
+         "img": "http://winnipegsportsteamphotos.com/assets/images/work-16.jpg",
+         "price": "400",
+         "rating": "4.8",
+         "description": "When you play a team sports you would defenitely want a team photo. Here we will provide you the best photo of your team at outdoor and you will collect this as your memory. we took these photo very premium and make sure that the photo looks neat and clean."
+         
+     },
+     {         
+         "service_id": "06",
+         "title": "half body single",
+         "position": "white background",         
+         "img": "http://winnipegsportsteamphotos.com/assets/images/work-16.jpg",
+         "price": "300",
+         "rating": "5.00",
+         "description": "If you want to collect your single photo, this will be best option. Here we will provide you the best photo of you with white background and you will collect this as your memory. we took these photo very premium and make sure that the photo looks neat and clean."
+         
+     }
+
+]
