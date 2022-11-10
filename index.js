@@ -22,8 +22,15 @@ async function run(){
           app.get('/services', async(req, res)=>{
                const query = {}
                const cursor = serviceCollection.find(query);
-               const services = await cursor.toArray()
+               const services = await cursor.limit(3).toArray()
                res.send(services);
+          })
+
+          app.get('/allServices', async(req, res)=>{
+               const query = {}
+               const cursor = serviceCollection.find(query)
+               const allServices = await cursor.toArray()
+               res.send(allServices)
           })
 
           app.get('/services/:id', async(req, res)=>{
@@ -64,7 +71,20 @@ async function run(){
                res.send(reviewById)
           })
 
-          
+          app.put('/reviews/:id', async(req, res)=>{
+               const id = req.params.id;
+               const filter = {_id: ObjectId(id)}
+               const user = req.body;
+               const option = {upsert: true}
+               const updatedReview = {
+                    $set: {
+                         name: reviews.name,
+                         review: reviews.review
+                    }
+               }
+               const result = await reviewCollection.updateOne(filter, updatedReview, option)
+               res.send(result);
+          })
 
           app.delete('/reviews/:id', async(req, res)=>{
                const id = req.params.id;
